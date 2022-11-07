@@ -33,4 +33,4 @@ async def predict_api(file: UploadFile = File(...), question: str = None):
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, debug=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=6969, debug=True)

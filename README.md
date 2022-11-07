@@ -13,7 +13,7 @@ Run the streamlit app
 
 ```
 cd frontend
-streamlit run streamlit_app.py
+streamlit run home.py
 ```
 
 ## TODO

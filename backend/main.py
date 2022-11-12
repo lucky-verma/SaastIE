@@ -6,7 +6,7 @@ app = FastAPI()
 
 
 @app.post("/classifier")
-async def predict_api(file: UploadFile = File(...)):
+async def classifier_api(file: UploadFile = File(...)):
     extension = file.filename.split(".")[-1] in ("jpg", "jpeg", "png")
     if not extension:
         return "Image must be jpg or png format!"
@@ -15,7 +15,7 @@ async def predict_api(file: UploadFile = File(...)):
 
 
 @app.post("/parser")
-async def predict_api(file: UploadFile = File(...)):
+async def parser_api(file: UploadFile = File(...)):
     extension = file.filename.split(".")[-1] in ("jpg", "jpeg", "png")
     if not extension:
         return "Image must be jpg or png format!"
@@ -24,7 +24,7 @@ async def predict_api(file: UploadFile = File(...)):
 
 
 @app.post("/vqa")
-async def predict_api(file: UploadFile = File(...), question: str = None):
+async def vqa_api(file: UploadFile = File(...), question: str = None):
     extension = file.filename.split(".")[-1] in ("jpg", "jpeg", "png")
     if not extension:
         return "Image must be jpg or png format!"

@@ -6,7 +6,7 @@ Run the fastapi unicorn server
 
 ```
 cd backend
-uvicorn main:app --reload
+uvicorn main:app --reload --port 6969
 ```
 
 Run the streamlit app

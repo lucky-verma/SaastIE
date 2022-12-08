@@ -4,31 +4,35 @@ from functions import read_imagefile, classifier, parser, vqa
 
 app = FastAPI()
 
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the SaasTie API!"}
 
 @app.post("/classifier")
-async def classifier_api(file: UploadFile = File(...)):
-    extension = file.filename.split(".")[-1] in ("jpg", "jpeg", "png")
-    if not extension:
+async def classifier_api(file: bytes = File()):
+    if not file:
         return "Image must be jpg or png format!"
-    image = read_imagefile(await file.read())
+    image = read_imagefile(file)
     return classifier(image)
 
 
 @app.post("/parser")
-async def parser_api(file: UploadFile = File(...)):
-    extension = file.filename.split(".")[-1] in ("jpg", "jpeg", "png")
-    if not extension:
+async def parser_api(file: bytes = File()):
+    if not file:
         return "Image must be jpg or png format!"
-    image = read_imagefile(await file.read())
+    image = read_imagefile(file)
     return parser(image)
 
 
 @app.post("/vqa")
-async def vqa_api(file: UploadFile = File(...), question: str = None):
-    extension = file.filename.split(".")[-1] in ("jpg", "jpeg", "png")
-    if not extension:
+async def vqa_api(question: str = "What's the total amount?", file: bytes = File()):
+    print(question)
+    if not file:
         return "Image must be jpg or png format!"
-    image = read_imagefile(await file.read())
+    if not question:
+        return "Question must be provided!"
+        
+    image = read_imagefile(file)
     return vqa(image, question)
 
 

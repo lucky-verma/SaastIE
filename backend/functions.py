@@ -15,6 +15,9 @@ def read_imagefile(file) -> Image.Image:
     Read an image file and return a PIL Image.
     """
     image = Image.open(BytesIO(file))
+    # convert to RGB if necessary
+    if image.mode != "RGB":
+        image = image.convert("RGB")
     return image
 
 

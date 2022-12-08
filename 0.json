@@ -1,0 +1,364 @@
+{
+    "valid_line": [
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 186,
+                        "x1": 175,
+                        "y1": 64,
+                        "y2": 78
+                    },
+                    "is_key": 0,
+                    "row_id": 2028661,
+                    "text": "DRIVER LICENSE"
+                },
+                {
+                    "quad": {
+                        "x2": 393,
+                        "x1": 97,
+                        "y1": 2,
+                        "y2": 41
+                    },
+                    "is_key": 0,
+                    "row_id": 2028662,
+                    "text": "NEW YORK STATE"
+                }
+            ],
+            "category": "STATE",
+            "group_id": 12
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 186,
+                        "x1": 175,
+                        "y1": 64,
+                        "y2": 78
+                    },
+                    "is_key": 0,
+                    "row_id": 2028663,
+                    "text": "ID"
+                },
+                {
+                    "quad": {
+                        "x2": 310,
+                        "x1": 188,
+                        "y1": 61,
+                        "y2": 85
+                    },
+                    "is_key": 0,
+                    "row_id": 2028663,
+                    "text": "679611242"
+                }
+            ],
+            "category": "DRIVERS_LICENSE_ID",
+            "group_id": 13
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 121,
+                        "x1": 175,
+                        "y1": 80,
+                        "y2": 121
+                    },
+                    "is_key": 0,
+                    "row_id": 2028664,
+                    "text": "OLAVARRIA"
+                }
+            ],
+            "category": "LAST_NAME",
+            "group_id": 14
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 121,
+                        "x1": 175,
+                        "y1": 80,
+                        "y2": 121
+                    },
+                    "is_key": 0,
+                    "row_id": 2028665,
+                    "text": "JERRY JR"
+                }
+            ],
+            "category": "FIRST_NAME",
+            "group_id": 14
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 327,
+                        "x1": 175,
+                        "y1": 120,
+                        "y2": 154
+                    },
+                    "is_key": 0,
+                    "row_id": 2028666,
+                    "text": "518 W 134TH ST 1B NEW YORK, NY 10031"
+                }
+            ],
+            "category": "ADDRESS_1",
+            "group_id": 15
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 327,
+                        "x1": 175,
+                        "y1": 120,
+                        "y2": 154
+                    },
+                    "is_key": 0,
+                    "row_id": 2028667,
+                    "text": "NEW YORK, NY 10031"
+                }
+            ],
+            "category": "ADDRESS_2",
+            "group_id": 15
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 193,
+                        "x1": 176,
+                        "y1": 187,
+                        "y2": 201
+                    },
+                    "is_key": 0,
+                    "row_id": 2028668,
+                    "text": "Sex"
+                }
+            ],
+            "category": "SEX_LABEL",
+            "group_id": 16
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 207,
+                        "x1": 194,
+                        "y1": 187,
+                        "y2": 201
+                    },
+                    "is_key": 0,
+                    "row_id": 2028668,
+                    "text": "M"
+                }
+            ],
+            "category": "SEX",
+            "group_id": 16
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 244,
+                        "x1": 218,
+                        "y1": 187,
+                        "y2": 201
+                    },
+                    "is_key": 0,
+                    "row_id": 2028668,
+                    "text": "Height"
+                }
+            ],
+            "category": "HEIGHT_LABEL",
+            "group_id": 17
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 282,
+                        "x1": 245,
+                        "y1": 183,
+                        "y2": 205
+                    },
+                    "is_key": 0,
+                    "row_id": 2028668,
+                    "text": "6-03"
+                }
+            ],
+            "category": "HEIGHT",
+            "group_id": 17
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 315,
+                        "x1": 294,
+                        "y1": 185,
+                        "y2": 200
+                    },
+                    "is_key": 0,
+                    "row_id": 2028668,
+                    "text": "Eyes"
+                }
+            ],
+            "category": "EYES_LABEL",
+            "group_id": 18
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 351,
+                        "x1": 317,
+                        "y1": 184,
+                        "y2": 203
+                    },
+                    "is_key": 0,
+                    "row_id": 2028668,
+                    "text": "BRO"
+                }
+            ],
+            "category": "EYES",
+            "group_id": 18
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 198,
+                        "x1": 177,
+                        "y1": 207,
+                        "y2": 222
+                    },
+                    "is_key": 0,
+                    "row_id": 2028669,
+                    "text": "DOB"
+                }
+            ],
+            "category": "DOB_LABEL",
+            "group_id": 19
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 292,
+                        "x1": 199,
+                        "y1": 205,
+                        "y2": 227
+                    },
+                    "is_key": 0,
+                    "row_id": 2028669,
+                    "text": "05/30/1973"
+                }
+            ],
+            "category": "DOB",
+            "group_id": 19
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 209,
+                        "x1": 176,
+                        "y1": 207,
+                        "y2": 222
+                    },
+                    "is_key": 0,
+                    "row_id": 2028670,
+                    "text": "Expires"
+                }
+            ],
+            "category": "EXPIRES_LABEL",
+            "group_id": 20
+        },
+        {
+            "words": [
+                {
+                    "quad": {
+                        "x2": 305,
+                        "x1": 211,
+                        "y1": 224,
+                        "y2": 247
+                    },
+                    "is_key": 0,
+                    "row_id": 2028670,
+                    "text": "05/30/2027"
+                }
+            ],
+            "category": "EXPIRES",
+            "group_id": 20
+        }
+    ],
+    "meta": {
+        "version": "v0.1",
+        "split": "train",
+        "image_id": 0,
+        "image_size": {
+            "width": 506,
+            "height": 317
+        }
+    },
+    "roi": {
+        "x2": 432,
+        "y3": 687,
+        "x3": 451,
+        "y4": 699,
+        "x1": 1,
+        "y1": 188,
+        "x4": -19,
+        "y2": 173
+    },
+    "repeating_symbol": [
+        [
+            {
+                "quad": {
+                    "x2": 346,
+                    "y3": 380,
+                    "x3": 346,
+                    "y4": 384,
+                    "x1": 46,
+                    "y1": 368,
+                    "x4": 44,
+                    "y2": 364
+                },
+                "text": "-"
+            }
+        ],
+        [
+            {
+                "quad": {
+                    "x2": 349,
+                    "y3": 452,
+                    "x3": 351,
+                    "y4": 460,
+                    "x1": 47,
+                    "y1": 441,
+                    "x4": 45,
+                    "y2": 437
+                },
+                "text": "-"
+            }
+        ],
+        [
+            {
+                "quad": {
+                    "x2": 356,
+                    "y3": 628,
+                    "x3": 356,
+                    "y4": 632,
+                    "x1": 48,
+                    "y1": 615,
+                    "x4": 47,
+                    "y2": 611
+                },
+                "text": "-"
+            }
+        ]
+    ]
+}
